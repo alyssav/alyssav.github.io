@@ -1,0 +1,28 @@
+body{
+	background-color: rgb(147, 145, 145);
+	font-family: "geneva",arial,sans-serif;
+	background-image: none;
+	background-repeat: no-repeat;
+	margin-left: 50px;
+	margin-top: 50px;
+}
+
+#aboutMe {
+	width: 200px;
+	float: left;
+}
+
+#name{
+	font-size: x-large;
+}
+
+.description {
+	font-size: small;
+}
+
+#courses {
+	float: left;
+}
+h1{
+	font-size: x-large;
+}

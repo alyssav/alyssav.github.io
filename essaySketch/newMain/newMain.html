@@ -1,0 +1,104 @@
+<html>
+	<head>
+		<link rel="stylesheet" type="text/css" href="newMainStyle.css">
+		<script src="objects.js"></script>
+		<script src="data.js"></script>
+		<script src="main.js"></script>
+		<body>
+			<img id="header" src="header.png"></img>
+			<br>
+			<ul id="nav">
+			  <li><a href="newMain.html">Home</a></li>
+			  <li><a href="http://ecologylab.net/courses/sii/deliverables/essaySketch.html">About the Project</a></li>
+			  <li><a href="http://students.cse.tamu.edu/peachers/">About the Author</a></li>
+			  <li><a href="http://ideamache.ecologylab.net/e/fRHPzXSS3Z/">Mache</a></li>
+			</ul>
+			<div id="content">
+				<div id="myLife">
+					<!-- need to learn how to make the person image relative to the bg-->
+					<img id="mainBg" src="landscape_summer.png"></img>
+					<img id="person" src="jamesSwanson.png"></img>
+					<div id="whiteBg">
+						<div id="instructions">
+							Read me: 
+							<p>
+							Feel free to select any of the time nodes. After, you may choose another time node or select a choice node. The choice nodes allow you to make changes to past events and see the effect it has on your present (current time node selected). 
+							<p> 
+							Enjoy!
+						</div>
+						<div id="profile">
+							<span class="type"> Name: </span>
+							<span id="personName" class="response"> James Swanson</span>
+							<br>
+							<span class="type"> Age: </span>
+							<span id="personAge" class="response">38</span>
+							<br>
+							<span class="type"> Location: </span>
+							<span id="personLocation" class="response">San Diego, CA</span>
+							<br>
+							<span class="type"> Occupaiton: </span>
+							<span id="personOccupation" class="response">Teacher</span>
+							<br>
+						</div>
+						<div id="relationships">
+							<img id="relationshipImg1" class="relationshipImg" src=""></img>
+							<img id="relationshipImg2" class="relationshipImg" src=""></img>
+							<img id="relationshipImg3" class="relationshipImg" src=""></img>
+
+							<span id="relationship1" class="nameOfRelationship"> Nicole Swanson</span>
+							<br>
+							<span id="relationship2" class="nameOfRelationship"> Christopher Ramirez</span>
+							<br>
+							<span id="relationship3" class="nameOfRelationship"> Ana Swanson</span>
+							<br>
+						</div>						
+
+					</div>
+				<div id="lifeEvent">
+					<span id="lifeEventHead">{ life event }</span>
+					<br>
+					<div id="lifeEventText">
+						
+					</div>					
+					<img id="lifeEventImg" src=""></img>
+				</div>
+				<div id="lectureContent">
+					<span id="lectureContentHead">{ lecture content }</span>
+					<br>
+					<div id="lectureContentText"></div>
+					<img id="lectureContentImg" src="onePlusOneIsThree.png"></img>
+				</div>
+				<div id="timeline">
+					<!--ahhhhhh this will be fun :) ask for advice? -->
+					<div id="timelineTopText" class="timelineTextDiv">
+						<span class="timelineTextEmp">Time nodes </span>
+						<span class="timelineText">allow you to navigate through James' life.</span>
+					</div>
+					<div id="visualTimeline">
+						<canvas id="backboneTimeline"></canvas>
+					</div>
+					<div id="timelineBottomText" class="timelineTextDiv">
+						<span class="timelineTextEmp">Choice nodes </span>
+						<span class="timelineText">allow you to change a decision made in James' past.</span>
+					</div>
+				</div>
+				<div id="choiceChannel">
+					<span id="choiceContentHead">{ past choice }</span>
+					<br>
+					<div id="choiceChannelText">
+					</div>
+					<form id="choiceChannelChoices" >
+						  <input id="rB1" type="radio" name="choice" value="1" onclick="onClickChoiceRadioButton(this)"> 
+						  	<span id="choice1"> .</span>
+						  <br>
+						  <input id="rB2" type="radio" name="choice" value="2" onclick="onClickChoiceRadioButton(this)" > 	
+						  	<span id="choice2"> .</span>
+					</form> 
+				</div>
+			</div>
+			<script> 
+				initMain();
+			</script>
+		</body>
+	</head>
+</html>

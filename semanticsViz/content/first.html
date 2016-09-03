@@ -1,0 +1,47 @@
+<html>
+  <head>
+    <link rel="stylesheet" type="text/css" href="main.css">
+    <title>{ phocal }</title>
+    <script src="d3.js" charset="utf-8"></script>
+  </head>
+  <body>
+    <a href="about.html" id="headerName" >{ phocal }</a>
+    <span id="smallDescrip"> an interactive way of exploring 9 popular camera bodies</span>
+    <div id="mainContent">
+        <svg id="svgMain" width="900" height="1000"> 
+          <div id="tags">
+            <span id="tagsDescrip">contains one of the following:</span><br><br>
+            <input class="tags" type="checkbox" value="outdoor" onclick="checkboxClick()" /><label for="outdoor"> outdoor</label><br />
+            <br>
+            <input class="tags" type="checkbox" value="nature" onclick="checkboxClick()" /><label for="nature"> nature</label><br />
+            <br>
+            <input class="tags" type="checkbox" value="architecture" onclick="checkboxClick()"/><label for="architecture"> architecture</label><br />
+            <br>
+            <input class="tags" type="checkbox" value="sport" onclick="checkboxClick()" /><label for="sport"> sport</label><br />
+            <br>
+            <input class="tags" type="checkbox" value="people" onclick="checkboxClick()"/><label for="people"> people</label><br />
+            <br>
+            <input class="tags" type="checkbox" value="indoor" onclick="checkboxClick()"/><label for="indoor"> indoor</label><br />
+         </div>
+          <div id="photos" style="display: none;">
+            <img id="photo1" class="images" onclick="imgClick(this)" src=""></img>
+            <img id="photo2" class="images" onclick="imgClick(this)" src=""></img>
+            <img id="photo3" class="images" onclick="imgClick(this)" src=""></img>
+        </div>
+        
+      </svg>
+     
+    </div>
+
+     <div id="largePhotoDiv" width="1000" height="1000" style="display: none;">
+          <img id="largePhoto" src=""></img>
+          <img id="exit" src="exit.png" onclick="onClickExit()"></img>
+      </div>
+    
+   
+    <script src="data1.js"></script>
+    <script src="main.js" charset="utf-8"></script>
+    <script> InitChart(); </script>
+  </body>
+</html>
+

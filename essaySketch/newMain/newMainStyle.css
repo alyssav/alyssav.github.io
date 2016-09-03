@@ -1,0 +1,311 @@
+body{
+	font-family: "geneva",arial,sans-serif;
+	background-image: none;
+	background-repeat: no-repeat;
+	margin-left: auto;
+	margin-right: auto;
+	width: 500px;
+}
+
+#nav {
+	padding-left: 40px;
+	font-size: xx-small;
+}
+#nav li{
+	float: left;
+	margin-left: 50px;
+}
+
+a:link, a:visited {
+    display: block;
+    width: 50px;
+    color: rgb(110,110,110);
+    text-align: center;
+    text-decoration: none;
+    text-transform: lowercase;
+}
+
+a:hover, a:active {
+    background-color: rgb(222,222,222);
+}
+#header{
+	margin-left: 165px;
+	height: 40px;
+	width: auto;
+}
+
+#content{
+	margin-top:40px;
+	position: relative;
+}
+
+/* top of main content */ 
+#mainBg{
+	width: auto;
+	height: 160px;
+	overflow: hidden;
+	position: relative;
+}
+
+#person{
+	width: auto;
+	height: 130px;
+	padding-top: 30px;
+	position: absolute;
+	left: 25px;
+	z-index: 2;
+}
+
+#whiteBg{
+	background-color: white;
+	width: 175px;
+	height: 160px;
+	position: absolute;
+	left: 325px;
+	top: 0px;
+	z-index: 5;
+	box-sizing: border-box;
+    border: 1px solid #C0C0C0;
+}
+
+#instructions{
+	-webkit-animation: fadein 10s;
+	font-size: xx-small;
+	color: red;
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-top: 10px;
+}
+
+#profile{
+	position: absolute;
+	width: 137px;
+	height: 150px;
+	left: 15px;
+	color: rgb(167,169,172);
+}
+
+.title{
+	padding-left: 50px;
+	padding-right: 40px;
+	padding-bottom: 25px;
+	font-size: xx-small;
+}
+
+.type{
+	color: rgb(110,110,110);
+	padding-bottom: 25px;
+	font-size: xx-small;
+
+}
+
+.response{
+	font-size: xx-small;
+	padding-bottom: 25px;	
+	font-size: xx-small;
+}
+
+#relationships{
+	position: relative;
+	margin-top: 85px;
+	width: 137px;
+	height: 150px;
+}
+
+.nameOfRelationship{
+	padding-left: 45px;
+	font-size: xx-small;
+	color: rgb(167,169,172);
+}
+
+#relationshipImg1{
+	padding-left: 15px;
+	width: 25px;
+	height: auto;
+	position: absolute;
+	z-index: 7;
+}
+
+#relationshipImg2{
+	padding-left: 15px;
+	padding-top: 18px;
+	width: 25px;
+	height: auto;
+	position: absolute;
+	z-index: 7;
+}
+
+#relationshipImg3{
+	padding-left: 15px;
+	padding-top: 38px;
+	width: 25px;
+	height: auto;
+	position: absolute;
+	z-index: 7;
+}
+
+
+
+/*left middle / life event */
+#lifeEvent {
+	float: left;
+	width: 250px;
+	height: 175px;
+	box-sizing: border-box;
+    border: 1px solid #C0C0C0;
+}
+
+#lifeEventHead{
+	padding-left: 90px;
+	font-family: serif;
+	font-size: small;
+	color: rgb(110,110,110);
+	-webkit-animation: fadein 5s;
+}
+
+#lifeEventText{
+	padding-left: 15px;
+	padding-right: 15px;
+	padding-top: 5px;
+	font-size: xx-small;
+	color: rgb(167,169,172);
+}
+
+
+/*right middle / lecture content */
+#lectureContent {
+	float: left;
+	width: 250px;
+	height: 175px;
+	box-sizing: border-box;
+    border: 1px solid #C0C0C0;
+}
+
+#lectureContentHead{
+	padding-left: 70px;
+	font-family: serif;
+	font-size: small;
+	color: rgb(110,110,110);
+	-webkit-animation: fadein 5s;
+}
+
+#lectureContentText{
+	padding-left: 15px;
+	padding-right: 15px;
+	padding-top: 5px;
+	font-size: xx-small;
+	color: rgb(167,169,172);
+}
+
+#lectureContentImg{
+	height: 85px;
+	width: auto;
+	margin-left: 80px;
+}
+
+/* timeline */ 
+#timeline{
+	float: left;
+	width: 500px;
+	height: 160px;
+	box-sizing: border-box;
+    border: 1px solid #C0C0C0;
+}
+
+#backboneTimeline{
+	width:400px;
+	height: 60px;
+	margin-left: 40px;
+	margin-top: 50px;
+}
+
+.timelineTextDiv{
+	text-align: center;
+	margin-top: 5px;
+}
+
+.timelineTextEmp{
+	font-size: xx-small;
+	font-style: italic; 
+	color: rgb(110,110,110);
+	-webkit-animation: fadein 5s;
+}
+
+.timelineText{
+	font-size: xx-small;
+	color: rgb(167,169,172);
+	-webkit-animation: fadein 5s;
+}
+
+#timelineBottomText{
+	margin-top: 8px;
+	-webkit-animation: fadein 5s;
+}
+
+.timelineTimeNode{
+	width: 40px;
+	height: auto;
+	position: absolute;
+	z-index: 5;
+}
+
+#topImg4 {
+	width: 30px;
+}
+
+.timelineVerticalLine{
+	width: auto;
+	height: 100px;
+	position: absolute;
+	z-index: 0;
+}
+
+
+/* choice channel */
+#choiceChannel {
+	float: left;
+	margin-left: 125px;
+	margin-bottom: 20px;
+	width: 250px;
+	height: 150px;
+	box-sizing: border-box;
+    border: 1px solid #C0C0C0;
+    text-align: center;
+}
+
+#choiceContentHead{
+	font-family: serif;
+	font-size: small;
+	color: rgb(110,110,110);
+	-webkit-animation: fadein 5s;
+}
+
+#choiceChannelText{
+	margin-top: 5px;
+	padding-left: 10px;
+	padding-right: 10px;
+	font-size: xx-small;
+	color: rgb(167,169,172);
+}
+
+.timelineChoiceNode{
+	width: 40px;
+	height: auto;
+	position: absolute;
+	z-index: 5;
+}
+
+#choiceChannelChoices{
+	margin-top: 10px;
+	font-size: xx-small;
+	color: rgb(167,169,172);
+}
+
+@-webkit-keyframes fadein { 
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
+}
