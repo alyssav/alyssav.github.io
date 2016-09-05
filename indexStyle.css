@@ -29,3 +29,18 @@ h1{
 .navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
     color: #C2728C;
 }
+
+.photography {
+    width: auto;
+    height: 300px;
+    border: 1px solid #C2728C;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    white-space: nowrap;
+}
+
+.photography img {
+	height: 290px; 
+	margin: 5px;
+}
+
